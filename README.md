@@ -5,7 +5,9 @@ Main project on jupyter notebooks, all found under notebook folder.
 
 Three sets of notebooks. General pre-processing of non facebook status files in 'Project DAT 550.ipynb'. All CSV's fed to it in data folder.
 
-LSH investigation to assess BuzzFeed's original work in 'LSH_investigation.ipynb'. It used the CSV file 'oneline_status_matrix.csv', which had to be shortened significantly due to githubs 100 MB upload limit. Current size is 13 MB, but original file was 500MB. The method to recreate is inside the notebook, but commented out. The shortened version is left as an example.
+LSH investigation to assess BuzzFeed's original work in 'LSH_investigation.ipynb'. It used the CSV file 'oneline_status_matrix.csv', which had to be shortened significantly due to githubs 100 MB upload limit. Current size is 13 MB, but original file was 500MB. The method to recreate is inside the notebook, but commented out. This code was used inside 'LSTM and NN classifier.ipynb'. The shortened version is left as an example.
+
+'LSTM and NN classifier.ipynb' is the file file actually uses the statuses folder directly, and it's the dataframes here tat were branched off to create 'oneline_status_matrix.csv'.
 
 All other notebooks related to differing ML models training and analysis. Note 'img_tools.py' is a python script file also used by these notebooks.
 
